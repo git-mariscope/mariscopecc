@@ -34,6 +34,8 @@ namespace testform
                 
                 if (str.StartsWith("PC"))
                 {
+
+
                     float ns = Convert.ToInt32(str[31]);
                     ns = (ns / 255) * 100;
 
